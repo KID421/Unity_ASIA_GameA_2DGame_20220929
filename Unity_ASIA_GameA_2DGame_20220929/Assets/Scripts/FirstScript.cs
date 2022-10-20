@@ -1,43 +1,43 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 namespace KID
 {
     /// <summary>
-    /// ²Ä¤@­Ó¸}¥»
+    /// ç¬¬ä¸€å€‹è…³æœ¬
     /// 2022.10.13
     /// </summary>
     public class FirstScript : MonoBehaviour
     {
-        #region µù¸Ñ°Ï°ì
-        // ÁY±Æ §Ö±¶Áä¡GTab
-        // ®æ¦¡¤Æ¤å¥ó §Ö±¶Áä¡GCtrl + K D
-        // ³æ¦æµù¸Ñ
+        #region è¨»è§£å€åŸŸ
+        // ç¸®æ’ å¿«æ·éµï¼šTab
+        // æ ¼å¼åŒ–æ–‡ä»¶ å¿«æ·éµï¼šCtrl + K D
+        // å–®è¡Œè¨»è§£
 
-        /* ¦h¦æµù¸Ñ
-         * ¦h¦æµù¸Ñ
+        /* å¤šè¡Œè¨»è§£
+         * å¤šè¡Œè¨»è§£
          */
 
-        // A a ¤£¬Û¦Pªº¦r
+        // A a ä¸ç›¸åŒçš„å­—
         #endregion
 
-        #region ¨Æ¥ó°Ï°ì
-        // ³ê¿ô¨Æ¥ó¡G¹CÀ¸¶}©l®É°õ¦æ¤@¦¸
+        #region äº‹ä»¶å€åŸŸ
+        // å–šé†’äº‹ä»¶ï¼šéŠæˆ²é–‹å§‹æ™‚åŸ·è¡Œä¸€æ¬¡
         private void Awake()
         {
-            // ¿é¥X(°T®§)¡F
-            print("«¢Åo¡A¨U¼w :D");
+            // è¼¸å‡º(è¨Šæ¯)ï¼›
+            print("å“ˆå›‰ï¼Œæ²ƒå¾· :D");
         }
 
-        // ¶}©l¨Æ¥ó¡GAwake «á°õ¦æ¤@¦¸
+        // é–‹å§‹äº‹ä»¶ï¼šAwake å¾ŒåŸ·è¡Œä¸€æ¬¡
         private void Start()
         {
-            print("<color=yellow>¶}©l¨Æ¥ó</color>");
+            print("<color=yellow>é–‹å§‹äº‹ä»¶</color>");
         }
 
-        // §ó·s¨Æ¥ó¡GStart ¤§«á°õ¦æ¡A°õ¦æ¬ù 60 FPS
+        // æ›´æ–°äº‹ä»¶ï¼šStart ä¹‹å¾ŒåŸ·è¡Œï¼ŒåŸ·è¡Œç´„ 60 FPS
         private void Update()
         {
-            print("<color=green>§ó·s¨Æ¥ó</color>");
+            print("<color=green>æ›´æ–°äº‹ä»¶</color>");
         }
         #endregion
     }

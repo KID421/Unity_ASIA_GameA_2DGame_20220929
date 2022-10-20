@@ -1978,6 +1978,66 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1550376753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1550376754}
+  - component: {fileID: 1550376755}
+  m_Layer: 0
+  m_Name: "\u5B78\u7FD2\u6B04\u4F4D"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1550376754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550376753}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1550376755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550376753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1200c0682e1e14eb67588dbb97c2f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: -58
+  countProp: 7
+  speed: 3.5
+  jump: 7.7
+  namePlayer: "\u5C0F\u9A0E\u58EB"
+  content: "\u55E8\uFF0C\u59B3\u597D~"
+  isPass: 1
+  isDead: 0
+  weaponCount: 10
+  propName: "\u7D05\u8272\u85E5\u6C34"
+  score: 96
+  walkSpeed: 10.5
+  nameWeapon: "\u6253\u706B\u6A5F"
+  password: 1@3a978321
+  number: 77
+  isOpen: 0
 --- !u!1 &1695704392
 GameObject:
   m_ObjectHideFlags: 0
